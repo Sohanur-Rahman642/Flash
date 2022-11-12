@@ -1,0 +1,11 @@
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                groupId = 'com.example.flash'
+                artifactId = 'flash'
+                version = 1.0.0 
+            }
+        }
+    }
+}
